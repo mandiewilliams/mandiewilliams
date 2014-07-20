@@ -2,6 +2,14 @@ body {
 	font-family: "Helvetica", sans-serif;
 	
 }
+body ul {
+	list-style-type: none;
+	padding-left:0;
+}
+body a {
+	text-decoration: none;
+	color:#000000;
+}
 #banner {
 	width:900px;
 	height:100px;
@@ -14,7 +22,6 @@ nav {
 	background-color:#FF99CC;
 }
 nav ul {
-	list-style-type: none;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -38,6 +45,13 @@ nav li {
 	width:300px;
 	height:600px;
 }
+#sidebar a {
+	color:#6E6E4A;
+}
+#sidebar a:hover {
+	color:#00000;
+}
+
 #gallery {
 	float:left;
 	width:600px;
@@ -53,4 +67,8 @@ nav li {
 	padding-top:5px;
 	padding-left:10px;
 	
+}
+#list {
+	width:900px;
+	margin:0 auto;
 }
