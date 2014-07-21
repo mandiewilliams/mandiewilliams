@@ -1,32 +1,48 @@
 body {
-	font-family: "Helvetica", sans-serif;
+	font-family: "CooperHewitt-Light", sans-serif;
 	
 }
+h1, h2 {
+	font-family: "CooperHewitt-Medium";
+}
+
 body ul {
 	list-style-type: none;
 	padding-left:0;
 }
+
 body a {
 	text-decoration: none;
 	color:#000000;
 }
+
 #banner {
 	width:900px;
 	height:100px;
 	margin:0 auto;
+
 }
+
 nav {
 	width:900px;
 	height:30px;
 	margin:0 auto;
 	background-color:#FF99CC;
 }
+
+nav a:hover {
+	color:#000000;
+}
+
+} /*why does this fix my problem?*/
+
 nav ul {
     margin: 0;
     padding: 0;
     height: 100%;
     width:100%;
 }
+
 nav li {
 	float:left;
 	text-align: center;
@@ -35,39 +51,47 @@ nav li {
 	padding-right:10px;
 	padding-left:10px;
 }
-/*#sectionWrapper {
-	width:900px;
-	margin:0 auto;
 
-}*/
-#sidebar {
-	float:left;
-	width:300px;
+#wrapper {
+	width:900px;
 	height:600px;
+	margin:0 auto;
+	background-color:#E6E6E6;
 }
-#sidebar a {
+
+.sidebar {
+	float:left;
+	width:290px;
+	height:600px;
+	padding-left:10px;
+}
+
+.sidebar a {
 	color:#6E6E4A;
 }
-#sidebar a:hover {
-	color:#00000;
+
+.sidebar a:hover {
+	color:#000000;
+	font-family: "CooperHewitt-Medium", sans-serif;
 }
 
-#gallery {
+.gallery {
 	float:left;
 	width:600px;
 	height:600px;
 }
+
 #footer {
 	clear:both;
-	width:900px;
+	width:890px;
 	height:30px;
 	margin:0 auto;
 	background-color:#FF99CC;
 	min-height:100%;
 	padding-top:5px;
 	padding-left:10px;
-	
 }
+
 #list {
 	width:900px;
 	margin:0 auto;
