@@ -95,13 +95,3 @@ nav li {
 	width:900px;
 	margin:0 auto;
 }
-#tileGallery {
-	width:900px;
-	margin:0 auto;
-}
-#tileGallery img {
-	width:31%;
-	height:100%;
-	float:left;
-	padding: 5px, 5px, 5px, 5px;
-}
